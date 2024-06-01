@@ -1,2 +1,2 @@
-# AIM-Tools
-Toolkit for AI Monitoring for monitoring the use of AI in research publications.
+# AIM Tools
+Toolkit for monitoring the use of AI in research publications.
