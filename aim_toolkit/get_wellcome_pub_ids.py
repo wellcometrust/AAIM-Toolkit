@@ -49,7 +49,7 @@ def read_parquet(uris, grid_id):
         funding = pd.DataFrame(df_funded['funding'].to_list())
         df_funded['grid_id'] = funding['grid_id']
         df_funded.loc[df_funded['grid_id'] == grid_id]
-        df_funded.loc[~df_funded['doi'].isna()]
+        df_funded.loc[~df_funded['pmid'].isna()]
         df_funded = df_funded[['doi', 'grid_id', 'pmid', 'pmcid']]
         dfs.append(df_funded)
 
